@@ -5,4 +5,9 @@ ec2-instance-2 ansible_host=10.0.2.12 ansible_user=ec2-user ansible_connection=s
 [aws_ec2_instances:vars]
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 
+
+
+
+
+
     

@@ -1,0 +1,11 @@
+---
+- name: Simulated Ping via SSM (Case Study)
+  hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: Simulate ping response (no real AWS call)
+      debug:
+        msg: "SSM ping simulation successful for host {{ inventory_hostname }}"
+
+

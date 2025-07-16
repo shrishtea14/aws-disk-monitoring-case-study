@@ -1,0 +1,9 @@
+---
+- name: Check disk usage across EC2 instances
+  hosts: all
+  gather_facts: no
+  tasks:
+    - name: Simulate disk usage check
+      debug:
+        msg: "Disk usage for {{ inventory_hostname }} is at 70% (simulation)"
+

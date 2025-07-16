@@ -1,0 +1,22 @@
+---
+- name: Ping all EC2 instances
+  hosts: all
+  gather_facts: no
+  tasks:
+    - name: Ping using AWS SSM
+      amazon.aws.aws_ssm:
+        document_name: AWS-RunShellScript
+        targets:
+          - Key: InstanceIds
+            Values: "{{ ansible_play_hosts }}"
+        parameters:
+          commands: [ "echo pong" ]
+      register: result
+
+    - name: Show result
+      debug:
+        var: result
+
+
+
+

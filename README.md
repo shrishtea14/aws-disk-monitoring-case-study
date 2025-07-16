@@ -17,5 +17,14 @@ This project provides a scalable and secure solution to monitor disk utilization
 - Ansible is used as the automation framework
 
 ## 📂 Structure
+📂 Structure
+
+- `ansible/`: Main Ansible playbook and roles
+- `inventory/`: Inventory of target EC2s (SSM-based or IPs for simulation)
+- `scripts/`: Helper scripts for output parsing or post-processing
+- `output/`: Collected disk usage metrics (JSON, CSV)
+- `diagrams/`: High-level solution architecture diagrams
+- `requirements.txt`: Dependencies for Ansible and AWS SDKs
+
 
 

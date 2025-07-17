@@ -14,7 +14,8 @@ This repository presents a **case study** for building a **scalable and secure m
 
 ---
 
-## 🗂️ Project Structure
+##🗂️ Project Structure
+
 aws-disk-monitoring-case-study/
 ├── ansible/                # Contains Ansible playbooks (e.g., ping.yml)
 ├── diagrams/               # System architecture diagrams (draw.io/png)

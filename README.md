@@ -52,15 +52,15 @@ region=us-east-1
 
 📋 Sample Playbook (ansible/ping.yml)
 ---
-- name: Ping EC2 instances via SSM
-  hosts: aws_ec2_instances
-  gather_facts: false
+- name: Simulated Ping via SSM (Case Study)
+  hosts: all
+  gather_facts: no
+
   tasks:
-    - name: Ping using AWS SSM
-      amazon.aws.aws_ssm:
-        document_name: AWS-RunShellScript
-        parameters:
-          commands: ["echo pong"]
+    - name: Simulate ping response (no real AWS call)
+      debug:
+        msg: "SSM ping simulation successful for host {{ inventory_hostname }}"
+
 
 📁 Output Folder
 Monitoring command outputs (simulated) will be stored under the output/ folder in later steps.

@@ -1,0 +1,2 @@
+ansible (for automation)
+boto3 (for AWS interactions)

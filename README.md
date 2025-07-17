@@ -1,15 +1,21 @@
-🖥️ Multi-Account AWS EC2 Disk Utilization Monitoring (Case Study)
-This repository presents a case study for building a scalable and secure monitoring solution for EC2 disk utilization across multiple AWS accounts using Ansible and AWS Systems Manager (SSM).
-⚠️ Disclaimer: This is a case study project, and no real data or infrastructure has been used.
+# 🖥️ Multi-Account AWS EC2 Disk Utilization Monitoring (Case Study)
 
-📌 Objectives
-✅ Monitor disk usage on EC2 instances without SSH or third-party agents
-✅ Enable centralized visibility across AWS accounts
-✅ Use IAM roles and SSM for secure, scalable access
+This repository presents a **case study** for building a **scalable and secure monitoring solution** for EC2 disk utilization across **multiple AWS accounts** using **Ansible** and **AWS Systems Manager (SSM)**.
 
+> ⚠️ **Disclaimer**: This is a case study project. No real AWS infrastructure or production data has been used. All executions are simulated.
 
+---
 
-🗂️ Project Structure
+## 📌 Objectives
+
+- ✅ Monitor disk usage on EC2 instances **without SSH** or third-party agents  
+- ✅ Enable **centralized visibility** across AWS accounts  
+- ✅ Use **IAM roles** and **SSM** for secure, scalable access  
+
+---
+
+## 🗂️ Project Structure
+
 aws-disk-monitoring-case-study/
 ├── ansible/                # Contains Ansible playbooks (e.g., ping.yml)
 ├── diagrams/               # System architecture diagrams (draw.io/png)
@@ -20,7 +26,7 @@ aws-disk-monitoring-case-study/
 ├── requirements.yml        # For Ansible Galaxy collection installation
 └── README.md               # Project documentation
 
-🖼️ Architecture Diagram
+## 🖼️ Architecture Diagram
 📍 Located in: diagrams/architecture.png
 
 🧭 This diagram illustrates the SSM-based automation flow across multiple AWS accounts.
@@ -32,7 +38,7 @@ aws-disk-monitoring-case-study/
 🔄 IAM Cross-Account Roles
 💻 macOS Terminal + VS Code/TextEdit (for editing)
 
-🚀 Setup Instructions
+## 🚀 Setup Instructions
 📥 Step 1: Clone and Initialize the Repo
 git clone https://github.com/shrishtea14/aws-disk-monitoring-case-study.git
 cd aws-disk-monitoring-case-study

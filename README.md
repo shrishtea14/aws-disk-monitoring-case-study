@@ -56,7 +56,7 @@ i-xxxxxxxxxxxxxx1
 ansible_connection=aws_ssm
 region=us-east-1
 
-📋 Sample Playbook (ansible/ping.yml)
+## 📋 Sample Playbook (ansible/ping.yml)
 ---
 - name: Simulated Ping via SSM (Case Study)
   hosts: all
@@ -68,21 +68,21 @@ region=us-east-1
         msg: "SSM ping simulation successful for host {{ inventory_hostname }}"
 
 
-📁 Output Folder
+## 📁 Output Folder
 Monitoring command outputs (simulated) will be stored under the output/ folder in later steps.
 
-👩‍💻 Author Note
+## 👩‍💻 Author Note
 This project is a learning exercise and portfolio demonstration by Shrishti Sisodia. It simulates how to:
 🧱 Design a multi-account observability solution
 ⚙️ Automate cloud operations using Ansible & AWS
 🧾 Work with YAML, Git, and command-line tools effectively
 
-🔮 Next Steps
+## 🔮 Next Steps
 ✨ Add simulated command output scripts
 📊 Add automated data gathering playbooks (CPU, disk, memory usage)
 🔐 Implement IAM role assumption logic
 
-📬 Feedback / Collaboration
+# 📬 Feedback / Collaboration
 Have ideas or suggestions? Feel free to raise issues or contribute enhancements. Let’s build better cloud-native automation together 🌐✨
  
 

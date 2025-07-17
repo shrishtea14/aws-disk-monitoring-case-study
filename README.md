@@ -14,17 +14,17 @@ This repository presents a **case study** for building a **scalable and secure m
 
 ---
 
-##🗂️ Project Structure
-
+## 🗂️ Project Structure
 aws-disk-monitoring-case-study/
-├── ansible/                # Contains Ansible playbooks (e.g., ping.yml)
-├── diagrams/               # System architecture diagrams (draw.io/png)
-├── inventory/              # Inventory files for Ansible
-├── output/                 # Placeholder for monitoring outputs
-├── scripts/                # Custom scripts (if needed in future steps)
-├── requirements.txt        # Ansible collections required
-├── requirements.yml        # For Ansible Galaxy collection installation
-└── README.md               # Project documentation
+├── ansible/ # Contains Ansible playbooks (e.g., ping.yml, check_disk.yml)
+├── diagrams/ # System architecture diagrams (e.g., draw.io, PNG)
+├── inventory/ # Inventory files for Ansible (e.g., hosts)
+├── output/ # Placeholder for monitoring outputs (logs, reports, etc.)
+├── scripts/ # Custom scripts (optional; for future enhancements)
+├── requirements.txt # List of Ansible collections required via pip
+├── requirements.yml # Ansible Galaxy collections installation file
+└── README.md # Project documentation and setup instructions
+
 
 ## 🖼️ Architecture Diagram
 📍 Located in: diagrams/architecture.png
